@@ -14,7 +14,7 @@ function FetchingDataWithUseEffect() {
       .catch((err) => {
         console.log(err);
       });
-  });
+  }, []);
 
   // axios
   //   .get("https://jsonplaceholder.typicode.com/posts")

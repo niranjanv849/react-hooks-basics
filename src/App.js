@@ -11,6 +11,7 @@ import RunOnceUseEffect from "./components/RunOnceUseEffect";
 import UseEffectWithCleanUp from "./components/UseEffectWithCleanUp";
 import FetchingDataWithUseEffect from "./components/FetchingDataWithUseEffect";
 function App() {
+  console.log("SIVA");
   return (
     <div className="app">
       {/* <ClassCounter /> */}
